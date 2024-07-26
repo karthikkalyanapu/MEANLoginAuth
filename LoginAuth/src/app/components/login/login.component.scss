@@ -1,0 +1,74 @@
+
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  
+  .login-card {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-logo {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .login-heading {
+    font-size: 2rem; /* Adjust as needed */
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .login-subheading {
+    font-size: 1rem; /* Adjust as needed */
+    color: #6c757d; /* Bootstrap's secondary color */
+    margin-bottom: 20px;
+  }
+  
+  button {
+    width: 100%;
+  }
+  
+
+// .login-container {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     height: 80vh; /* Full viewport height */
+//     background-color: #f5f5f5; /* Background color of the page */
+//     // background-image: url('https://t4.ftcdn.net/jpg/01/19/11/55/360_F_119115529_mEnw3lGpLdlDkfLgRcVSbFRuVl6sMDty.jpg');
+//     background-repeat: no-repeat;
+//   }
+  
+//   .login-card {
+//     width: 100%;
+//     max-width: 400px; /* Maximum width of the card */
+//     padding: 20px;
+//     text-align: center;
+//     border: 2px solid #007bff; /* Border color and width */
+//     border-radius: 8px; /* Rounded corners for the border */
+//     background-color: white; /* Background color of the card */
+//   }
+  
+//   .mat-headline {
+//     margin-top: 20px;
+//     font-size: 2.5rem;
+//   }
+  
+//   .mat-subheading {
+//     margin-bottom: 20px;
+//     color: #666;
+//   }
+  
+//   button {
+//     margin-top: 20px;
+//   }
+  

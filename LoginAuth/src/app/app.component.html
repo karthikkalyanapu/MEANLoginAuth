@@ -1,0 +1,14 @@
+<!-- As a link -->
+<!-- As a heading -->
+<header>
+  <nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <h1 class="navbar-brand mb-0 h1">Auth App</h1>
+      <form class="d-flex justify-content-end">
+        <!-- <button *ngIf="!isAuthenticated" class="btn btn-primary btn-lg me-5" type="button" (click)="login()">Login</button> -->
+        <button *ngIf="isAuthenticated" class="btn btn-danger btn-lg me-5" type="button" (click)="logout()">Logout</button>
+      </form>
+    </div>
+  </nav>
+</header>
+<router-outlet></router-outlet>

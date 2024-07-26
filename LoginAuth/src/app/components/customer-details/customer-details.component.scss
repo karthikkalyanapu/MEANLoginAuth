@@ -1,0 +1,30 @@
+@import "../../../assets/scss/table.scss";
+
+.container {
+    width: 100%;
+}
+
+
+.account-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.account-item {
+    margin-right: 10px;
+    // text-decoration: none;
+    color: #007bff;
+}
+
+.account-item:hover {
+    text-decoration: none;
+}
+
+.example-element-detail {
+    .table-header {
+        font-size: 20px;
+        font-weight: bold;
+        color: blue;
+        padding: 10px;
+    }
+}

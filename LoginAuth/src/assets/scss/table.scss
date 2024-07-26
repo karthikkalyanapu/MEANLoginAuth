@@ -1,0 +1,42 @@
+table {
+    width: 100%;
+}
+
+.mat-table {
+    width: 100%;
+}
+
+.example-element-detail {
+    overflow: hidden;
+    transition: height 0.225s cubic-bezier(0.4, 0.0, 0.2, 1);
+  }
+  
+  .example-expanded-row {
+    background-color: #f9f9f9;
+  }
+  
+  .example-detail-row {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.225s cubic-bezier(0.4, 0.0, 0.2, 1);
+  }
+  
+  .example-detail-row-visible {
+    height: auto;
+  }
+  
+  .icon {
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+  .blink_me {
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
